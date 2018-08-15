@@ -80,3 +80,12 @@ class TabbedReport extends Report {
     super.run();
   }
 }
+
+
+let nate = {
+  name: 'Nate',
+  guitars: ['Gibson', 'Martin', 'Taylor'],
+  printGuitars: function() {
+    this.guitars.forEach( g => console.log(this.name + 'plays a ' + g));
+  }
+};
